@@ -4,7 +4,7 @@ Created on Wed Aug  7 05:56:48 2024
 Simple Fun Adventure Game
 @author: Shannon
 """
-
+#My first attempt at coding a game. It's simple, but it worked. I am happy
 nick_name = input('Please enter your game name: ')
 print(f"Welcome to the jungle, {nick_name}!")
 reply = input('''You are stumbling through the jungle and can go Left or Right. Do you want to go left or right? ''').lower()
@@ -33,6 +33,7 @@ elif reply == 'right':
 else:
     print('Not a valid answer id-git')
 print("The struggle is real....")
+
 
 
 
